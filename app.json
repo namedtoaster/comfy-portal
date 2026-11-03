@@ -71,7 +71,9 @@
       [
         "expo-image-picker",
         {
-          "photosPermission": "Allow $(PRODUCT_NAME) to access your photos to set preview images"
+          "photosPermission": "Allow $(PRODUCT_NAME) to access your photos to set preview images",
+          "cameraPermission": "Allow $(PRODUCT_NAME) to use the camera to take a photo for an image input",
+          "microphonePermission": false
         }
       ],
       [
